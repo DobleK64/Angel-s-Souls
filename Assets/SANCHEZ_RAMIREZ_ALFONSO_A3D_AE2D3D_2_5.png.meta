@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: e79355a1034aee7489f06ff198e4a525
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 10
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 450
+        width: 194
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1199335d27d02243b12e1b53dff6367
+      internalID: 699490754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 450
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3732eccbf4cec1b469e3c57ebdaca43e
+      internalID: -1746583795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 578
+        width: 194
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a39216d4ed4364da02754d427ea076
+      internalID: -753379128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 597
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be6673ac15355b43b05bd5e46c3df41
+      internalID: 1993357928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_4
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 448
+        width: 194
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56109abacc2705443b821be7b0284829
+      internalID: -341507463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_5
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 529
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a23fb6843c1f164d8ae630507db896b
+      internalID: 1426781711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc00c96a39cd4f84880fa6a819670ffb
+      internalID: -893074205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_7
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 322
+        width: 62
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32356a5f0345ce4f85af97152b49013
+      internalID: -677466505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 194
+        width: 192
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad73a1ffc84b72843b578462504a6416
+      internalID: -308465740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 194
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9eade82b0e34e4b91f175849fb823a
+      internalID: 1903180491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_10
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 322
+        width: 62
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af14999086544a644a36570fba934de9
+      internalID: -453991531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 66
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4870efaf590fe46409ea97f3107138e0
+      internalID: 1543111192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380c031ee120ead4380c3e2dd7dbd069
+      internalID: 1450782931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_0: 699490754
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_1: -1746583795
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_10: -453991531
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_11: 1543111192
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_12: 1450782931
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_2: -753379128
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_3: 1993357928
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_4: -341507463
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_5: 1426781711
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_6: -893074205
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_7: -677466505
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_8: -308465740
+      SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_9: 1903180491
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
