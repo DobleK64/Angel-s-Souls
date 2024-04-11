@@ -52,22 +52,12 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log(saltoDoble);
         }
 
-        //ANIMACIONES.
-        if (dir != Vector2.zero)
-        {
-            //estamos andando.
-            _animator.SetBool("andar", true);
-        }
-        else
-        {
-            //estamos parados.
-            _animator.SetBool("andar", false);
-        }
+  
     }
-
     private void FixedUpdate()
     {
         bool grnd = IsGrounded();
+        Debug.Log (grnd);
         //if (dir != Vector2.zero)
         {
             float currentYVel = rb.velocity.y; //sirve para que si te estas moviendo, caigas a la misma velocidad que te mueves.
@@ -76,21 +66,21 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = nVel; //Mantener la velocidad en Y en las caidas despues del Salto.
         }
 
-        if (_intentionToJump && (IsGrounded() || saltoDoble < 2)) //Salto del corazon.
+        if (_intentionToJump && (IsGrounded() || saltoDoble < 2)) //Salto del personaje.
         {
 
-            _animator.Play("saltar");
+            //_animator.Play("saltar");
             rb.velocity = new Vector2(rb.velocity.x, 0);
-            rb.AddForce(Vector2.up * jumpForce * rb.gravityScale * rb.drag, ForceMode2D.Impulse); //rb.drag es para evitar que el corazon se deslice.
-            AudioManager.instance.PlayAudio(jumpClip, "jumpSound", false, 0.1f);
+            rb.AddForce(Vector2.up * jumpForce * rb.gravityScale * rb.drag, ForceMode2D.Impulse); //rb.drag es para evitar que el personaje se deslice.
+            //AudioManager.instance.PlayAudio(jumpClip, "jumpSound", false, 0.1f);
             saltoDoble++;
 
 
         }
         _intentionToJump = false;
-        _animator.SetBool("isGrounded", grnd);
+        //_animator.SetBool("isGrounded", grnd);
     }
-    private bool IsGrounded() //se lanza un rayo desde el corazon hacia abajo y detectar la m�scara de colisiones que hemos establecido (detectar el suelo).
+    private bool IsGrounded() //se lanza un rayo desde el personaje hacia abajo y detectar la m�scara de colisiones que hemos establecido (detectar el suelo).
     {
         RaycastHit2D collisions = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundMask);
         if (collisions)
@@ -105,16 +95,16 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     }
-    public void resetCorazon() // Para que nuestro corazon vuelva a su posicion incial al caer
+    public void resetPersonaje() // Para que nuestro personaje vuelva a su posicion incial al caer
     {
         GameManager.instance.LoadScene("GameOver");
     }
-    void OnDestroy() // Esto comprueba que nuestro corazon a sido destruido
+    void OnDestroy() // Esto comprueba que nuestro personaje a sido destruido
     {
 
 
         AudioManager.instance.ClearAudios(); //Esto nos ayuda a limpiar los audios una vez nuestro personaje es destruido
-                                             // SceneManager.LoadScene("Juego"); // Si nuestro corazon a sido destruido se reiniciara la escena ("DESTRUIDO" caer al vacio solo hara que volvamos a la posiscion inicial)
+                                             // SceneManager.LoadScene("Juego"); // Si nuestro personaje a sido destruido se reiniciara la escena ("DESTRUIDO" caer al vacio solo hara que volvamos a la posiscion inicial)
     }
 
 }
