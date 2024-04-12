@@ -20,12 +20,19 @@ public class PlayerMovement : MonoBehaviour
     private bool _intentionToJump;
     private Vector2 originalPosition;
 
+    private bool canDash = true;
+    private bool isDashing;
+    public float dashingPower = 24f;  //dash del personaje
+    public float dashingCooldown = 1f;
+    private TrailRenderer tr;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         _rend = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
+        tr= GetComponent<TrailRenderer>();  
 
         originalPosition = transform.position;
         Camera.main.transform.parent = transform;
@@ -34,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         dir = Vector2.zero;
         if (Input.GetKey(rightKey))
         {
@@ -51,18 +59,25 @@ public class PlayerMovement : MonoBehaviour
             _intentionToJump = true;
             Debug.Log(saltoDoble);
         }
+          if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(Dash());
+        }
 
   
     }
     private void FixedUpdate()
     {
+
         bool grnd = IsGrounded();
         Debug.Log (grnd);
         //if (dir != Vector2.zero)
         {
             float currentYVel = rb.velocity.y; //sirve para que si te estas moviendo, caigas a la misma velocidad que te mueves.
+            float currentXVel = canDash ? 0 : rb.velocity.x; //sirve para que si te estas moviendo, caigas a la misma velocidad que te mueves.
             Vector2 nVel = dir * speed;
             nVel.y = currentYVel; //Quedarse la velocidad de Y.
+            nVel.x += currentXVel;
             rb.velocity = nVel; //Mantener la velocidad en Y en las caidas despues del Salto.
         }
 
@@ -90,6 +105,23 @@ public class PlayerMovement : MonoBehaviour
         }
         return false;
     }
+    private IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
+        //rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);      //dash
+        rb.AddForce(new Vector2(_rend.flipX ? -1 : 1, 0) * dashingPower, ForceMode2D.Impulse);
+        tr.emitting = true;
+        // yield return new WaitForSeconds(dashingTime);
+        rb.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        tr.emitting = false;
+        canDash = true;
+    }
+
     private void OnDrawGizmos() //identificar al rayo.
     {
         Gizmos.color = Color.red;
