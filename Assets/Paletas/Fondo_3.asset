@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SANCHEZ_RAMIREZ_ALFONSO_A3D_AE2D3D_2_5_1
+  m_Name: Fondo_3
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1746583795, guid: e79355a1034aee7489f06ff198e4a525, type: 3}
+  m_Sprite: {fileID: 512541482, guid: 4a5e4e5f7f8f3014fb8e4e473cab8ae0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
