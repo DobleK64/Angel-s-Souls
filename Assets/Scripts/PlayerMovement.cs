@@ -34,8 +34,7 @@ public class PlayerMovement : MonoBehaviour
         _animator = GetComponent<Animator>();
         tr= GetComponent<TrailRenderer>();  
 
-        originalPosition = transform.position;
-        Camera.main.transform.parent = transform;
+       
     }
 
     // Update is called once per frame
