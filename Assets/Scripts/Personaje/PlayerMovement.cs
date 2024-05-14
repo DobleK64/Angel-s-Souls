@@ -114,12 +114,14 @@ public class PlayerMovement : MonoBehaviour
         rb.gravityScale = 0f;
         //rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);      //dash
         rb.AddForce(new Vector2(_rend.flipX ? -1 : 1, 0) * dashingPower, ForceMode2D.Impulse);
+        GetComponent<Collider2D>().enabled = false;
         tr.emitting = true;
         // yield return new WaitForSeconds(dashingTime);
-        rb.gravityScale = originalGravity;
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
+        rb.gravityScale = originalGravity;
         tr.emitting = false;
+        GetComponent<Collider2D>().enabled = true;
         canDash = true;
     }
 

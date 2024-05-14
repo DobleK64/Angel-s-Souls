@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2847481905146239051}
   - component: {fileID: 4689672052028446872}
   - component: {fileID: 2281246883534429976}
+  - component: {fileID: 3142813251470198754}
   - component: {fileID: -6581069269292223723}
   - component: {fileID: 3020133033648415280}
   m_Layer: 0
@@ -94,13 +95,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752645661647693518}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ddb35509e23a774c81557464cf83b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyCooldown: 4
   enemyType: 0
+--- !u!114 &3142813251470198754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752645661647693518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698341937fad1c64598c51cd9286a3ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!50 &-6581069269292223723
 Rigidbody2D:
   serializedVersion: 4
