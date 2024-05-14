@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -51,7 +52,7 @@ public class Enemy : MonoBehaviour
                 GameManager.instance.character.health -= dmg;
                 print("Vida player: " + GameManager.instance.character.health);
                 enemyCurrentTime = 0; 
-
+                
             }
         }
     }
