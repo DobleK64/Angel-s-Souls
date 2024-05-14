@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     public float dashingPower = 24f;  //dash del personaje
     public float dashingCooldown = 1f;
     private TrailRenderer tr;
+    private Character character;
 
     // Start is called before the first frame update
     void Start()
@@ -32,8 +33,9 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         _rend = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
-        tr= GetComponent<TrailRenderer>();  
-
+        tr= GetComponent<TrailRenderer>();
+        character = new Angel();
+        _rend.sprite = character.GetSprite();
        
     }
 

@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public enum GameManagerVariables { TIME, POINTS };
     private float time;
     private int points;
+    public Character character; 
 
     private void Awake()
     {

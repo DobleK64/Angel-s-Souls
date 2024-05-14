@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Angel : Character
+public class NormalSkeleton : Character
 {
-    public Angel() : base("Azrael", Random.Range(20, 30), 200, Resources.Load<Sprite>("Sprites/Angel"))
+    public NormalSkeleton() : base("NormalSkeleton", 5 , 75, Resources.Load<Sprite>("Sprites/normalskeleton"))
     {
 
     }
@@ -17,6 +17,7 @@ public class Angel : Character
 
     public override float Heal()
     {
-        return health; 
+        
+        return health;
     }
 }
