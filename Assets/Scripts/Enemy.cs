@@ -9,14 +9,14 @@ public class Enemy : MonoBehaviour
     private float enemyCurrentTime;
     private SpriteRenderer spriteRenderer;
     public float enemyCooldown;
-    public Character  enemy;
+    public Character enemy;
     public EnemyType enemyType;
-
+    
     // Start is called before the first frame update
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        switch(enemyType)
+        switch (enemyType)
         {
             case EnemyType.CERBERUS:
                 enemy = new Cerberus();
@@ -34,16 +34,16 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
 
+       
         if (enemy.health <= 0)
         {
-            Destroy(gameObject); 
+            Destroy(gameObject);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.GetComponent<PlayerMovement>()) 
+        if (collision.GetComponent<PlayerMovement>())
         {
             if (enemyCurrentTime > enemyCooldown)
             {
@@ -51,9 +51,10 @@ public class Enemy : MonoBehaviour
                 float dmg = enemy.Attack();
                 GameManager.instance.character.health -= dmg;
                 print("Vida player: " + GameManager.instance.character.health);
-                enemyCurrentTime = 0; 
-                
+                enemyCurrentTime = 0;
+
             }
         }
     }
-}
+
+}   
