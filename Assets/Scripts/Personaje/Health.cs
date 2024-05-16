@@ -1,19 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private float health = 200;
+    [SerializeField] private int health = 200;
 
-    private float MAX_HEALTH = 200;
+    private int MAX_HEALTH = 200;
     [SerializeField] private LifeBar lifeBar; 
 
     private void Start()
     {
          MAX_HEALTH = health;
-         lifeBar.StartLifeBar(health/MAX_HEALTH);   
+         lifeBar.StartLifeBar(health);   
     }
     // Update is called once per frame
     void Update()
@@ -31,13 +30,13 @@ public class Health : MonoBehaviour
 
     public void Damage(int amount)
     {
+        lifeBar.ChangeActualLife(health); 
         if (amount < 0)
         {
             throw new System.ArgumentOutOfRangeException("Cannot have negative Damage");
         }
 
         this.health -= amount;
-        lifeBar.ChangeActualLife(health/MAX_HEALTH); 
 
         if(health <= 0)
         {
@@ -68,6 +67,6 @@ public class Health : MonoBehaviour
     {
         Debug.Log("I am Dead!");
         Destroy(gameObject);
-        
+
     }
 }
