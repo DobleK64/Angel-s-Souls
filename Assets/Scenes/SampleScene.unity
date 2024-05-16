@@ -309,7 +309,11 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
 --- !u!1 &407291207
+=======
+--- !u!1 &519420028
+>>>>>>> parent of 8549c6a (juego)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -384,8 +388,13 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
+<<<<<<< HEAD
   orthographic size: 5
   m_Depth: 0
+=======
+  orthographic size: 2.31
+  m_Depth: -1
+>>>>>>> parent of 8549c6a (juego)
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -406,6 +415,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 407291207}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -415,6 +425,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 519420028}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.755909, y: 2.7118921, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180473447}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4fbe061ab1e2346bde7cf1dbb6e71b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angel: {fileID: 0}
+>>>>>>> parent of 8549c6a (juego)
 --- !u!1 &617360911
 GameObject:
   m_ObjectHideFlags: 0
@@ -3805,8 +3839,13 @@ Transform:
   m_GameObject: {fileID: 962694812}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0.82, y: -0.152, z: 0}
   m_LocalScale: {x: 0.4903, y: 0.5599, z: 1}
+=======
+  m_LocalPosition: {x: 0.591, y: 0.048, z: 0}
+  m_LocalScale: {x: 0.25339034, y: 0.3097656, z: 1}
+>>>>>>> parent of 8549c6a (juego)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1180473447}
@@ -4228,10 +4267,18 @@ Transform:
   m_GameObject: {fileID: 1180473441}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -9.755909, y: -2.678, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+=======
+  m_LocalPosition: {x: -9.755909, y: -2.7118921, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 519420032}
+>>>>>>> parent of 8549c6a (juego)
   - {fileID: 962694813}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7526,6 +7573,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD
 --- !u!1 &1742122531
 GameObject:
   m_ObjectHideFlags: 0
@@ -7855,6 +7903,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> parent of 8549c6a (juego)
 --- !u!1 &2037607548
 GameObject:
   m_ObjectHideFlags: 0
@@ -7990,7 +8040,10 @@ GameObject:
   - component: {fileID: 2124374288}
   - component: {fileID: 2124374287}
   - component: {fileID: 2124374286}
+<<<<<<< HEAD
   - component: {fileID: 2124374291}
+=======
+>>>>>>> parent of 8549c6a (juego)
   m_Layer: 0
   m_Name: spritesheet_esqueleto_magico_0
   m_TagString: Untagged
@@ -8160,6 +8213,7 @@ Transform:
   - {fileID: 815764414}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!95 &2124374291
 Animator:
   serializedVersion: 5
@@ -8181,6 +8235,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> parent of 8549c6a (juego)
 --- !u!1 &2128621352
 GameObject:
   m_ObjectHideFlags: 0
@@ -8316,6 +8372,10 @@ SceneRoots:
   - {fileID: 1239833044}
   - {fileID: 2124374290}
   - {fileID: 822614049}
+<<<<<<< HEAD
   - {fileID: 1742122539}
   - {fileID: 1180473447}
   - {fileID: 407291211}
+=======
+  - {fileID: 1180473447}
+>>>>>>> parent of 8549c6a (juego)
