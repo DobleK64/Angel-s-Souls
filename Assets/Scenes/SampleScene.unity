@@ -373,6 +373,7 @@ Camera:
   orthographic: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   orthographic size: 3.2
 =======
@@ -384,6 +385,9 @@ Camera:
 =======
   orthographic size: 3.2
 >>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
+=======
+  orthographic size: 2.31
+>>>>>>> parent of 8549c6a (juego)
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -408,6 +412,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -435,6 +440,13 @@ Transform:
 >>>>>>> parent of 8549c6a (juego)
 =======
 >>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
+=======
+  m_LocalPosition: {x: 9.755909, y: 2.7118921, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180473447}
+>>>>>>> parent of 8549c6a (juego)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -3841,6 +3853,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
@@ -3866,6 +3879,13 @@ Transform:
 >>>>>>> parent of 8549c6a (juego)
 =======
 >>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
+=======
+  m_LocalPosition: {x: 0.591, y: 0.048, z: 0}
+  m_LocalScale: {x: 0.25339034, y: 0.3097656, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180473447}
+>>>>>>> parent of 8549c6a (juego)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &962694814
 MonoBehaviour:
@@ -7585,6 +7605,7 @@ Tilemap:
     e33: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
@@ -8063,6 +8084,8 @@ Animator:
 >>>>>>> parent of 8549c6a (juego)
 =======
 >>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
+=======
+>>>>>>> parent of 8549c6a (juego)
 --- !u!1 &2037607548
 GameObject:
   m_ObjectHideFlags: 0
@@ -8187,8 +8210,11 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> parent of 8549c6a (juego)
 =======
 >>>>>>> parent of 8549c6a (juego)
 --- !u!1 &2124374285
@@ -8205,7 +8231,10 @@ GameObject:
   - component: {fileID: 2124374287}
   - component: {fileID: 2124374286}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 2124374291}
+=======
+>>>>>>> parent of 8549c6a (juego)
 =======
 >>>>>>> parent of 8549c6a (juego)
   m_Layer: 0
@@ -8378,6 +8407,7 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!95 &2124374291
 Animator:
   serializedVersion: 5
@@ -8404,6 +8434,8 @@ Animator:
 >>>>>>> parent of 8549c6a (juego)
 =======
 >>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
+=======
+>>>>>>> parent of 8549c6a (juego)
 --- !u!1 &2128621352
 GameObject:
   m_ObjectHideFlags: 0
@@ -8541,6 +8573,7 @@ SceneRoots:
   - {fileID: 822614049}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
@@ -8557,3 +8590,6 @@ SceneRoots:
 >>>>>>> parent of 8549c6a (juego)
 =======
 >>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
+=======
+  - {fileID: 1180473447}
+>>>>>>> parent of 8549c6a (juego)
