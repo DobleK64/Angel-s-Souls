@@ -372,6 +372,7 @@ Camera:
   field of view: 60
   orthographic: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   orthographic size: 3.2
 =======
@@ -380,6 +381,9 @@ Camera:
 =======
   orthographic size: 2.31
 >>>>>>> parent of 8549c6a (juego)
+=======
+  orthographic size: 3.2
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -405,12 +409,16 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
   m_LocalPosition: {x: -9.495909, y: -2.4318922, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
 =======
   m_LocalPosition: {x: 2.680177, y: 1.1218219, z: -10}
   m_LocalScale: {x: 2.0395677, y: 1.7860333, z: 1}
@@ -425,6 +433,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1180473447}
 >>>>>>> parent of 8549c6a (juego)
+=======
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -3830,12 +3840,16 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
   m_LocalPosition: {x: 0.333, y: -0.012, z: 0}
   m_LocalScale: {x: 0.19836664, y: 0.2425, z: 0.78285}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1543657150}
+<<<<<<< HEAD
 =======
   m_LocalPosition: {x: 2.600633, y: -0.006951143, z: 0}
   m_LocalScale: {x: 0.5168068, y: 0.5532517, z: 1}
@@ -3850,6 +3864,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1180473447}
 >>>>>>> parent of 8549c6a (juego)
+=======
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &962694814
 MonoBehaviour:
@@ -7568,7 +7584,10 @@ Tilemap:
     e32: 0
     e33: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
 --- !u!1001 &1690044541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7706,6 +7725,7 @@ PrefabInstance:
       insertIndex: 4
       addedObject: {fileID: 160381111}
   m_SourcePrefab: {fileID: 100100000, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
+<<<<<<< HEAD
 =======
 --- !u!1 &1742122531
 GameObject:
@@ -8041,6 +8061,8 @@ Animator:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 8549c6a (juego)
+=======
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
 --- !u!1 &2037607548
 GameObject:
   m_ObjectHideFlags: 0
@@ -8163,6 +8185,7 @@ Transform:
   - {fileID: 2128621353}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
@@ -8379,6 +8402,8 @@ Animator:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 8549c6a (juego)
+=======
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
 --- !u!1 &2128621352
 GameObject:
   m_ObjectHideFlags: 0
@@ -8515,14 +8540,20 @@ SceneRoots:
   - {fileID: 2124374290}
   - {fileID: 822614049}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
   - {fileID: 551410479}
   - {fileID: 2001019070}
   - {fileID: 1543657150}
   - {fileID: 1690044541}
+<<<<<<< HEAD
 =======
   - {fileID: 1742122539}
 >>>>>>> Stashed changes
 =======
   - {fileID: 1180473447}
 >>>>>>> parent of 8549c6a (juego)
+=======
+>>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
