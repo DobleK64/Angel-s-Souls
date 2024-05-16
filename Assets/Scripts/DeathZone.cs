@@ -10,7 +10,7 @@ public class DeathZone : MonoBehaviour
         PlayerMovement pm = collision.GetComponent<PlayerMovement>();
         if (pm)
         {
-            pm.resetPersonaje();
+            pm.resetPersonaje(); 
         }
         else
         {
