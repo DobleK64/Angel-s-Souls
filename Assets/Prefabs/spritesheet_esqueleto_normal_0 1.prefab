@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 20573484046375108}
   - component: {fileID: 4436909198543044546}
   m_Layer: 0
-  m_Name: Areadeataque (1)
+  m_Name: Areadeataque
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 2748533039623981716}
   - component: {fileID: 3773647768375437272}
   - component: {fileID: 6184489480321972910}
+  - component: {fileID: 6116682747160125641}
   m_Layer: 0
   m_Name: spritesheet_esqueleto_normal_0 1
   m_TagString: Untagged
@@ -371,9 +372,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -421,3 +422,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 75
+--- !u!114 &6116682747160125641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8944337254746283506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2722c9f078f505499e123307ca5662a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  personaje: {fileID: 0}

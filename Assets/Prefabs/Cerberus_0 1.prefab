@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1205648027680464329}
   - component: {fileID: 2104849972322445144}
   m_Layer: 0
-  m_Name: Areadeataque (2)
+  m_Name: Areadeataque
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 6910312178095061500}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.78, y: 0.08, z: 0}
+  m_LocalPosition: {x: -0.776, y: -0.015, z: 0}
   m_LocalScale: {x: 0.39673328, y: 0.485, z: 1.5657}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -174,6 +174,7 @@ GameObject:
   - component: {fileID: 7506639261513641180}
   - component: {fileID: 2087379842211637368}
   - component: {fileID: 4139837133820321678}
+  - component: {fileID: 5445143408956827785}
   m_Layer: 0
   m_Name: Cerberus_0 1
   m_TagString: Untagged
@@ -242,7 +243,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1400901309, guid: 668d9edcedbd6ef48a524494240a900b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.89, y: 0.71}
@@ -270,7 +271,7 @@ MonoBehaviour:
   timeToAttack: 8
   lineDistance: 2
   playerOnDetection: 0
-  speed: 2
+  speed: 0
   floorController: {fileID: 8739084103927481974}
   distance: 2
   rightMove: 1
@@ -359,6 +360,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 300
+--- !u!114 &5445143408956827785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6951658347795296981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2722c9f078f505499e123307ca5662a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  personaje: {fileID: 0}
 --- !u!1 &7974228767488748504
 GameObject:
   m_ObjectHideFlags: 0
