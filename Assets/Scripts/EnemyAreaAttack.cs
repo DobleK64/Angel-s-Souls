@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackArea : MonoBehaviour
+public class EnemyAreaAttack : MonoBehaviour
 {
-    private int damage;
+    public int damage;
     private void Start()
     {
-        damage = Random.Range(20, 30);
+        
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.GetComponent<HealthEnemy>() != null)
+        if (collider.GetComponent<Health>() != null)
         {
-            HealthEnemy health = collider.GetComponent<HealthEnemy>(); 
+            Health health = collider.GetComponent<Health>();
             health.Damage(damage);
         }
     }
