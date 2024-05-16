@@ -309,7 +309,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &519420028
+--- !u!1 &407291207
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -317,36 +317,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 519420032}
-  - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
+  - component: {fileID: 407291211}
+  - component: {fileID: 407291210}
+  - component: {fileID: 407291209}
+  - component: {fileID: 407291208}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
+--- !u!114 &407291208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407291207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4fbe061ab1e2346bde7cf1dbb6e71b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angel: {fileID: 0}
+--- !u!81 &407291209
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
+  m_GameObject: {fileID: 407291207}
   m_Enabled: 1
---- !u!20 &519420031
+--- !u!20 &407291210
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
+  m_GameObject: {fileID: 407291207}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.4745098, g: 0.20380935, b: 0.19215688, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -371,96 +384,37 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-  orthographic size: 3.2
-=======
-  orthographic size: 3.2034793
->>>>>>> Stashed changes
-=======
-  orthographic size: 2.31
->>>>>>> parent of 8549c6a (juego)
-=======
-  orthographic size: 3.2
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
-=======
-  orthographic size: 2.31
->>>>>>> parent of 8549c6a (juego)
-  m_Depth: -1
+  orthographic size: 5
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 0
+  m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 0
+  m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 0
+  m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &519420032
+--- !u!4 &407291211
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
+  m_GameObject: {fileID: 407291207}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
-  m_LocalPosition: {x: -9.495909, y: -2.4318922, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.77, y: -3.11, z: 0.010144736}
+  m_LocalScale: {x: 1.0088, y: 1.0088, z: 1.0088}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-=======
-  m_LocalPosition: {x: 2.680177, y: 1.1218219, z: -10}
-  m_LocalScale: {x: 2.0395677, y: 1.7860333, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1742122539}
->>>>>>> Stashed changes
-=======
-  m_LocalPosition: {x: 9.755909, y: 2.7118921, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1180473447}
->>>>>>> parent of 8549c6a (juego)
-=======
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
-=======
-  m_LocalPosition: {x: 9.755909, y: 2.7118921, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1180473447}
->>>>>>> parent of 8549c6a (juego)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c4fbe061ab1e2346bde7cf1dbb6e71b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angel: {fileID: 0}
 --- !u!1 &617360911
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,7 +3795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &962694813
 Transform:
   m_ObjectHideFlags: 0
@@ -3851,41 +3805,11 @@ Transform:
   m_GameObject: {fileID: 962694812}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
-  m_LocalPosition: {x: 0.333, y: -0.012, z: 0}
-  m_LocalScale: {x: 0.19836664, y: 0.2425, z: 0.78285}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1543657150}
-<<<<<<< HEAD
-=======
-  m_LocalPosition: {x: 2.600633, y: -0.006951143, z: 0}
-  m_LocalScale: {x: 0.5168068, y: 0.5532517, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1742122539}
->>>>>>> Stashed changes
-=======
-  m_LocalPosition: {x: 0.591, y: 0.048, z: 0}
-  m_LocalScale: {x: 0.25339034, y: 0.3097656, z: 1}
+  m_LocalPosition: {x: 0.82, y: -0.152, z: 0}
+  m_LocalScale: {x: 0.4903, y: 0.5599, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1180473447}
->>>>>>> parent of 8549c6a (juego)
-=======
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
-=======
-  m_LocalPosition: {x: 0.591, y: 0.048, z: 0}
-  m_LocalScale: {x: 0.25339034, y: 0.3097656, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1180473447}
->>>>>>> parent of 8549c6a (juego)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &962694814
 MonoBehaviour:
@@ -4304,11 +4228,10 @@ Transform:
   m_GameObject: {fileID: 1180473441}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.755909, y: -2.7118921, z: 0}
+  m_LocalPosition: {x: -9.755909, y: -2.678, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 519420032}
   - {fileID: 962694813}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7603,151 +7526,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
---- !u!1001 &1690044541
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3773647768375437272, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: speed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773647768375437272, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: floorController
-      value: 
-      objectReference: {fileID: 411826676}
-    - target: {fileID: 3773647768375437272, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: visionController
-      value: 
-      objectReference: {fileID: 223830082}
-    - target: {fileID: 3949233706655980719, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.383
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 113.448
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.408
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5145559436892094274, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6987761840243841964, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8944337254746283506, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
-      propertyPath: m_Name
-      value: spritesheet_esqueleto_normal_0 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 48addb18f3c4c154ca9eee55bda86d7c, type: 3}
---- !u!1001 &2001019070
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2870177528647492323, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_Name
-      value: spritesheet_esqueleto_magico_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.2839584
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7085697151695992372, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2870177528647492323, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-      insertIndex: 4
-      addedObject: {fileID: 160381111}
-  m_SourcePrefab: {fileID: 100100000, guid: ec921e3b2400e5a4abdf417e12b081f8, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!1 &1742122531
 GameObject:
   m_ObjectHideFlags: 0
@@ -7850,7 +7628,7 @@ TrailRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Time: 0.3
-  m_PreviewTimeScale: 0
+  m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -8038,7 +7816,7 @@ SpriteRenderer:
   m_Size: {x: 3.22, y: 2.02}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1742122539
@@ -8053,9 +7831,7 @@ Transform:
   m_LocalPosition: {x: -10.44, y: -2.66, z: 0}
   m_LocalScale: {x: 0.4903, y: 0.5599, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 519420032}
-  - {fileID: 962694813}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1742122540
@@ -8079,13 +7855,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 8549c6a (juego)
-=======
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
-=======
->>>>>>> parent of 8549c6a (juego)
 --- !u!1 &2037607548
 GameObject:
   m_ObjectHideFlags: 0
@@ -8208,15 +7977,6 @@ Transform:
   - {fileID: 2128621353}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> parent of 8549c6a (juego)
-=======
->>>>>>> parent of 8549c6a (juego)
 --- !u!1 &2124374285
 GameObject:
   m_ObjectHideFlags: 0
@@ -8230,13 +7990,7 @@ GameObject:
   - component: {fileID: 2124374288}
   - component: {fileID: 2124374287}
   - component: {fileID: 2124374286}
-<<<<<<< HEAD
-<<<<<<< HEAD
   - component: {fileID: 2124374291}
-=======
->>>>>>> parent of 8549c6a (juego)
-=======
->>>>>>> parent of 8549c6a (juego)
   m_Layer: 0
   m_Name: spritesheet_esqueleto_magico_0
   m_TagString: Untagged
@@ -8406,8 +8160,6 @@ Transform:
   - {fileID: 815764414}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!95 &2124374291
 Animator:
   serializedVersion: 5
@@ -8429,13 +8181,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 8549c6a (juego)
-=======
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
-=======
->>>>>>> parent of 8549c6a (juego)
 --- !u!1 &2128621352
 GameObject:
   m_ObjectHideFlags: 0
@@ -8571,25 +8316,6 @@ SceneRoots:
   - {fileID: 1239833044}
   - {fileID: 2124374290}
   - {fileID: 822614049}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
-  - {fileID: 551410479}
-  - {fileID: 2001019070}
-  - {fileID: 1543657150}
-  - {fileID: 1690044541}
-<<<<<<< HEAD
-=======
   - {fileID: 1742122539}
->>>>>>> Stashed changes
-=======
   - {fileID: 1180473447}
->>>>>>> parent of 8549c6a (juego)
-=======
->>>>>>> parent of 8cd202f (ANIMACIONES SIN TERMINAR)
-=======
-  - {fileID: 1180473447}
->>>>>>> parent of 8549c6a (juego)
+  - {fileID: 407291211}
