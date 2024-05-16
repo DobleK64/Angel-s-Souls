@@ -12,7 +12,7 @@ public class MagicBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Time.deltaTime * speed * Vector2.right);
+        transform.Translate(Time.deltaTime * speed * -Vector2.right);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -22,5 +22,6 @@ public class MagicBullet : MonoBehaviour
             health.Damage(damage);
             Destroy(gameObject);
         }
+       
     }
 }

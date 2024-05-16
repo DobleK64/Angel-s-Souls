@@ -33,6 +33,6 @@ public class EnemyShoot : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(shootController.position, shootController.position + transform.right * lineDistance);
+        Gizmos.DrawLine(shootController.position, shootController.position + transform.right * lineDistance);
     }
 }

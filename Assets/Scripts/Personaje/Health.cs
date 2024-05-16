@@ -7,7 +7,13 @@ public class Health : MonoBehaviour
     [SerializeField] private int health = 200;
 
     private int MAX_HEALTH = 200;
+    [SerializeField] private LifeBar lifeBar; 
 
+    private void Start()
+    {
+         MAX_HEALTH = health;
+         lifeBar.StartLifeBar(health);   
+    }
     // Update is called once per frame
     void Update()
     {
@@ -24,7 +30,8 @@ public class Health : MonoBehaviour
 
     public void Damage(int amount)
     {
-        if(amount < 0)
+        lifeBar.ChangeActualLife(health); 
+        if (amount < 0)
         {
             throw new System.ArgumentOutOfRangeException("Cannot have negative Damage");
         }
@@ -60,5 +67,6 @@ public class Health : MonoBehaviour
     {
         Debug.Log("I am Dead!");
         Destroy(gameObject);
+
     }
 }
