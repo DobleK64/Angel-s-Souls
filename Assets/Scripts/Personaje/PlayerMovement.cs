@@ -57,6 +57,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(jumpKey))
         {
             _intentionToJump = true;
+            AudioManager.instance.PlayAudio(jumpClip, "jumpSound"); 
             Debug.Log(saltoDoble);
         }
           if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)

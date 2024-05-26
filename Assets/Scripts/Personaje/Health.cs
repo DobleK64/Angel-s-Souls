@@ -13,7 +13,8 @@ public class Health : MonoBehaviour
     private void Start()
     {
          MAX_HEALTH = health;
-         lifeBar.StartLifeBar(health/MAX_HEALTH);   
+         lifeBar.StartLifeBar(health/MAX_HEALTH);
+        health = Mathf.Clamp(health, 0, 200);
     }
     // Update is called once per frame
     void Update()

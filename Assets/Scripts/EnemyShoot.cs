@@ -12,7 +12,14 @@ public class EnemyShoot : MonoBehaviour
     public float shootCooldown;
     public float shootTime;
     public float shootTimeWaiting;
+    private Animator animator;
     // Update is called once per frame
+    void Start()
+    {
+        animator = GetComponent<Animator>(); 
+
+    }
+    
     void Update()
     {
         playerOnRange = Physics2D.Raycast(shootController.position, transform.right , lineDistance, playerMask); 
@@ -21,7 +28,12 @@ public class EnemyShoot : MonoBehaviour
             if(Time.time > shootCooldown + shootTime)
             {
                 shootTime = Time.time;
+                animator.SetBool("isAttacking", true); 
                 Invoke(nameof(Shoot),shootTimeWaiting);
+            }
+            else
+            {
+                animator.SetBool("isAttacking", false); 
             }
         }
     }
