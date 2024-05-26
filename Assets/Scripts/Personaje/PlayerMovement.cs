@@ -11,13 +11,14 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode rightKey, leftKey, jumpKey;
     public float speed, rayDistance, jumpForce;
     public LayerMask groundMask; // mascara de colisiones con la que queremos que choque el rayo.
-    public AudioClip jumpClip; // 
+    public AudioClip jumpClip, dashClip; // 
     public int saltoDoble = 0; //
     private Rigidbody2D rb;
     private SpriteRenderer _rend;
     private Animator _animator;
     private Vector2 dir;
     private bool _intentionToJump;
+    private bool isWalking = false;
     private Vector2 originalPosition;
 
     private bool canDash = true;
@@ -47,22 +48,30 @@ public class PlayerMovement : MonoBehaviour
         {
             _rend.flipX = false;
             dir = Vector2.right;
+            _animator.SetBool("isWalking", true);
         }
         else if (Input.GetKey(leftKey))
         {
             _rend.flipX = true;
             dir = new Vector2(-1, 0);
+            _animator.SetBool("isWalking", true);
         }
-
+       else 
+        {
+            _animator.SetBool("isWalking", false); 
+        }
+        
         if (Input.GetKeyDown(jumpKey))
         {
             _intentionToJump = true;
             AudioManager.instance.PlayAudio(jumpClip, "jumpSound"); 
             Debug.Log(saltoDoble);
         }
-          if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+         
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
+            AudioManager.instance.PlayAudio(dashClip, "dashSound"); 
         }
 
   

@@ -6,6 +6,7 @@ public class BossSpawner : MonoBehaviour
 {
     public GameObject Cerberus;
     private SpriteRenderer sprite;
+    public AudioClip rugido;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class BossSpawner : MonoBehaviour
         if (collision.gameObject.GetComponent<PlayerMovement>()) 
         {
             Instantiate(Cerberus, transform.position, Quaternion.identity);
+            AudioManager.instance.PlayAudio(rugido, "rugidoSound");
             Destroy(this.gameObject);
         }
     }

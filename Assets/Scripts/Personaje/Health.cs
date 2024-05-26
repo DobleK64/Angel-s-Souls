@@ -8,7 +8,8 @@ public class Health : MonoBehaviour
     [SerializeField] private float health = 200;
 
     private float MAX_HEALTH = 200;
-    [SerializeField] private LifeBar lifeBar; 
+    [SerializeField] private LifeBar lifeBar;
+    public AudioClip damageClip ; 
 
     private void Start()
     {
@@ -38,9 +39,9 @@ public class Health : MonoBehaviour
         }
 
         this.health -= amount;
-        lifeBar.ChangeActualLife(health/MAX_HEALTH); 
-
-        if(health <= 0)
+        lifeBar.ChangeActualLife(health/MAX_HEALTH);
+        AudioManager.instance.PlayAudio(damageClip, "damageSound");
+        if (health <= 0)
         {
             Die();
         }
@@ -67,8 +68,10 @@ public class Health : MonoBehaviour
 
     private void Die()
     {
+        
         Debug.Log("I am Dead!");
         Destroy(gameObject);
-        
+
+         
     }
 }
