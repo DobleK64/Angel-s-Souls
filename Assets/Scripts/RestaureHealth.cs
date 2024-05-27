@@ -15,7 +15,7 @@ public class RestaureHealth : MonoBehaviour
     {
         if (collision.GetComponent<Health>())
         {
-            
+            collision.GetComponent<Health>().Heal(10);
             Destroy(gameObject);
         }
     }
