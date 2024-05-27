@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private float health = 200;
+    [SerializeField] public float health = 200;
 
     private float MAX_HEALTH = 200;
     [SerializeField] private LifeBar lifeBar;
@@ -15,7 +15,7 @@ public class Health : MonoBehaviour
     {
          MAX_HEALTH = health;
          lifeBar.StartLifeBar(health/MAX_HEALTH);
-        health = Mathf.Clamp(health, 0, 200);
+         health = Mathf.Clamp(health, 0, 200);
     }
     // Update is called once per frame
     void Update()

@@ -13,9 +13,10 @@ public class RestaureHealth : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<PlayerMovement>())
+        if (collision.GetComponent<Health>())
         {
-            //health += 10; 
+            
+            Destroy(gameObject);
         }
     }
 }
